@@ -12,9 +12,8 @@ class StartScreen extends StatelessWidget {
       mainAxisSize: MainAxisSize.min,
       children: [
         Image.asset(
-          'assets/images/quiz-logo.png',
-          width: 300,
-          color: const Color.fromARGB(150, 255, 255, 255),
+          'assets/images/quiz.png',
+          width: 400,
         ),
         // Opacity(
         //   opacity: 0.6,
@@ -23,9 +22,7 @@ class StartScreen extends StatelessWidget {
         //     width: 300,
         //   ),
         // ),
-        const SizedBox(
-          height: 50,
-        ),
+
         Text(
           'Quiz',
           style: GoogleFonts.lato(
